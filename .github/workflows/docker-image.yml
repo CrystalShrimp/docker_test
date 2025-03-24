@@ -38,4 +38,4 @@ jobs:
         push: ${{ github.event_name == 'push' }}  # 仅push事件时推送
         tags: |
           ${{ secrets.DOCKER_ACCOUNT }}/my-python-app:latest
-          ${{ secrets.DOCKER_ACCOUNTE }}/my-python-app:${{ github.sha }}
+          ${{ secrets.DOCKER_ACCOUNT }}/my-python-app:${{ github.sha }}
