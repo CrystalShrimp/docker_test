@@ -1,1 +1,1 @@
-print('DOCKER_Test')
+print('DOCKER_TEST')
