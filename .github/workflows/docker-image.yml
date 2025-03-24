@@ -37,5 +37,5 @@ jobs:
         platforms: linux/amd64,linux/arm64  # 根据需求调整架构
         push: ${{ github.event_name == 'push' }}  # 仅push事件时推送
         tags: |
-          ${{ secrets.DOCKER_USERNAME }}/my-python-app:latest
-          ${{ secrets.DOCKER_USERNAME }}/my-python-app:${{ github.sha }}
+          ${{ secrets.DOCKER_ACCOUNT }}/my-python-app:latest
+          ${{ secrets.DOCKER_ACCOUNTE }}/my-python-app:${{ github.sha }}
